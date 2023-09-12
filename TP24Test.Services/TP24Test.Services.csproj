@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TP24Test.Repository\TP24Test.Repository.csproj" />
+    <ProjectReference Include="..\TP24Test.Shared\TP24Test.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
